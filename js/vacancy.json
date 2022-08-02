@@ -6,7 +6,8 @@
   "occupation": "Junior Frontend developer",
   "jobFormat": [ "Офис", "Гибрид"],
   "salary": "500",
-  "city": "Маунтин-Вью"
+  "city": "Маунтин-Вью",
+  "city2": "Mountain View"
 },
 {
   "company":"RevBoss",
@@ -16,47 +17,52 @@
   "occupation": "Junior React Js Frontend developer",
   "jobFormat": ["Офис", "Гибрид"],
   "salary": "600",
-  "city": "Дарем"
+  "city": "Дарем",
+  "city2": "Durham"
 },
 {
   "company":"USAA",
-  "keyWords": ["developer","разработчик", "junior", "HTML", "CSS", "Денвер", "Denver", "USAA"],
+  "keyWords": ["developer","разработчик", "junior", "HTML", "CSS", "Сан-Антонио", "San Antonio", "USAA"],
   "experience": "3",
   "level": "junior",
   "occupation": "Junior Frontend HTML/CSS Developer",
   "jobFormat": ["Офис"],
   "salary": "600",
-  "city": "Денвер"
+  "city": "Сан-Антонио",
+  "city2": "San Antonio"
 },
 {
-  "company":"BiSoft",
-  "keyWords": ["developer","разработчик", "программист", "Wordpress", "senior", "Колумбия", "Columbia", "BiSoft"],
+  "company":"Ubisoft",
+  "keyWords": ["developer","разработчик", "программист", "Wordpress", "senior", "Монтрёй", "Montreuil", "Ubisoft"],
   "experience": "8",
   "level": "senior",
   "occupation": "Senior Wordpress Developer",
   "jobFormat": ["Удаленный", "Гибрид"],
   "salary": "3000",
-  "city": "Колумбия"
+  "city": "Монтрёй",
+  "city2": "Montreuil"
 },
 {
   "company":"CACI",
-  "keyWords": ["developer","разработчик", "программист", "python", "Денвер", "Denver", "CACI"],
+  "keyWords": ["developer","разработчик", "программист", "python", "Рестон", "Reston", "CACI"],
   "experience": "7",
   "level": "senior",
   "occupation": "Senior Python Developer",
   "jobFormat": ["Удаленный", "Гибрид"],
   "salary": "2500",
-  "city": "Денвер"
+  "city": "Рестон",
+  "city2": "Reston"
 },
 {
-  "company":"Noodle",
-  "keyWords": ["developer","разработчик", "программист", "JavaScript", "c#", "Нью-Йорк", "New York", "Noodle"],
+  "company":"Nvidia",
+  "keyWords": ["developer","разработчик", "программист", "JavaScript", "Санта-Клара", "Santa Clara", "Nvidia"],
   "experience": "6",
   "level": "middle",
   "occupation": "JavaScript Developer",
   "jobFormat": ["Удаленный", "Офис", "Гибрид"],
   "salary": "1500",
-  "city": "Нью-Йорк"
+  "city": "Санта-Клара",
+  "city2": "Santa Clara"
 },
 {
   "company":"Webxloo",
@@ -66,17 +72,19 @@
   "occupation": "HTML Developer ",
   "jobFormat": ["Удаленный"],
   "salary": "1600",
-  "city": "Тампа"
+  "city": "Тампа",
+  "city2": "Tampa"
 },
 {
-  "company":"DNT",
-  "keyWords": ["React","разработчик", "программист", "Senior", "developer", "DNT", "Сан-Диего", "San Diego", "DNT"],
+  "company":"OLX",
+  "keyWords": ["React","разработчик", "программист", "Senior", "developer", "OLX", "Хофддорп", "Hoofddorp"],
   "experience": "8",
   "level": "senior",
   "occupation": "Senior React Frontend Developer",
   "jobFormat": ["Удаленный", "Офис", "Гибрид"],
   "salary": "4000",
-  "city": "Сан-Диего"
+  "city": "Хофддорп",
+  "city2": "Hoofddorp"
 },
 {
   "company":"Docker",
@@ -86,27 +94,30 @@
   "occupation": "Senior PHP Developer",
   "jobFormat": ["Удаленный"],
   "salary": "6000",
-  "city": "Сан-Франциско"
+  "city": "Сан-Франциско",
+  "city2": "San Francisco"
 },
 {
-  "company":"Stacline",
-  "keyWords": ["developer","разработчик", "программист", "ruby", "ruby on rails", "Stacline", "Сиэтл", "Seattle"],
+  "company":"Yahoo!",
+  "keyWords": ["developer","разработчик", "программист", "ruby", "ruby on rails", "Yahoo! ", "Саннивейл", "Sunnyvale"],
   "experience": "10",
   "level": "senior",
   "occupation": "Senior React Developer",
   "jobFormat": ["Удаленный", "Офис", "Гибрид"],
   "salary": "6500",
-  "city": "Сиэтл"
+  "city": "Саннивейл",
+  "city2": "Sunnyvale"
 },
 {
-  "company":"KNI",
-  "keyWords": ["developer","разработчик", "программист", "Java", "Сан-Франциско", "San Francisco"],
+  "company":"Siemens",
+  "keyWords": ["developer","разработчик", "программист", "Java", "Берлин", "Berlin", "Siemens"],
   "experience": "11",
   "level": "senior",
   "occupation": "Senior Java developer",
   "jobFormat": ["Удаленный", "Офис", "Гибрид"],
   "salary": "6000",
-  "city": "Сан-Франциско"
+  "city": "Берлин",
+  "city2": "Berlin"
 },
 {
   "company":"DTiQ",
@@ -116,6 +127,7 @@
   "occupation": "Senior PHP/MySQL Developer",
   "jobFormat": ["Удаленный", "Офис", "Гибрид"],
   "salary": "5000",
-  "city": "Лас-Вегас"
+  "city": "Лас-Вегас",
+  "city2": "Las Vegas"
 }
 ]

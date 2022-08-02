@@ -10,13 +10,12 @@ function searchResult(element) {
     list.innerHTML += `
     <div class="search__card">
     <div>
-        <h5 class="search__card-title card-title">${element.occupation}<span class="card-title"> ${element.level}</span>
-        </h5>
-        <div class="search__card-subtitle">Компания</div>
+        <h5 class="search__card-title card-title">${element.occupation}</h5>
+        <div class="search__card-subtitle">Company</div>
         <div class="search__card-experience">${element.company}</div>
-        <div class="search__card-subtitle">Город</div>
-        <div class="search__card-city">${element.city}</div>
-        <div class="search__card-subtitle">Ожидаемая заработная плата</div>
+        <div class="search__card-subtitle">City</div>
+        <div class="search__card-city">${element.city2}</div>
+        <div class="search__card-subtitle">Salary</div>
         <div class="search__card-salary">${element.salary} $</div>
     </div>
 </div>`;
@@ -41,22 +40,15 @@ document.addEventListener("DOMContentLoaded", async function () {
     let arrCity = [];
 
     for (card of cards) {
-        arrCity.push(card.city);
+        arrCity.push(card.city2);
     }
-
-    //получение массива уникальных городов соискателей
     let uniqArrCity = [...new Set(arrCity)];
-
-    //создание выпадающего списка из массива уникальных городов
     for (uniqCity of uniqArrCity) {
         document.querySelector("#cities").innerHTML += `<option>${uniqCity}</option>`;
     }
 });
 
-
-
 function createObject() {
-    //объект с параметрами из фильтра
     const filterObject = {
         city: document.querySelector("#city").value,
         experience: [],
@@ -66,7 +58,6 @@ function createObject() {
         maxSalary: +document.querySelector("#maxSalary").value,
     };
 
-    // функция получения свойств-массивов объекта из фильтра
     function getFilter(filter, objectPush) {
         filter.forEach((element) => {
             if (element.checked) {
@@ -113,7 +104,7 @@ function createObject() {
     function searchCity() {
         list.innerHTML = "";
         for (card of cards) {
-            if (card.city == filterObject.city) {
+            if (card.city2 == filterObject.city2) {
                 searchResult(card);
                 newCards.push(card);
             }
@@ -271,22 +262,23 @@ btnReboot.addEventListener("click", () => {
     });
 });
 
-function filtermobile() {
+function filtermobilen() {
     var ele = document.querySelector(".filter-content");
     var text = document.querySelector(".filter-mobile");
     if (ele.style.display == "block") {
         ele.style.display = "none";
-        text.innerHTML = "Фильтр";
+        text.innerHTML = "Filter";
         document.querySelector(".searching__filters").classList.remove("shadow-on");
     } else {
         ele.style.display = "block";
-        text.innerHTML = "Скрыть фильтр";
+        text.innerHTML = "Close filter";
         document.querySelector(".searching__filters").classList.remove("searching__filters_shadow");
         document.querySelector(".searching__filters").classList.add("shadow-on");
     }
 }
 document.getElementById("btnappfilter1").addEventListener("click", () => {
-    filtermobile();
+    filtermobilen();
 });
+
 
 
